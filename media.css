@@ -1,0 +1,584 @@
+@media screen and (min-width: 768px) and (max-width: 899px){
+.about{
+    align-items:center;
+    height:300px;
+
+}
+.text h3{
+    font-size: 55px;
+    line-height: 60px;
+}
+.left p{
+    font-size: 14px;
+}
+.right img{
+    height: 170px;
+    width: 35vw;
+    margin-top: 30px;
+}
+
+.climate{
+    height: 1200px;
+}
+
+.container{
+height: 1200px;
+}
+
+.prev{
+    height: 950px;
+}
+.big-box{
+    gap:20px;
+}
+.note{
+    text-align:center;
+}
+.three{
+    height: 1200px;
+}
+.text{
+    h4{
+        font-size:50px;
+    }
+}
+nav{
+    display:none;
+}
+button{
+    display: none;
+}
+.hamburger{
+    display: flex;
+}
+footer{
+    justify-content: center;
+}
+}
+@media screen and (max-width:414) and (min-width:320px){
+ .right img{
+height: 100px;
+}  
+}
+
+@media screen and (max-width: 1024px) and (min-width: 900px)  {
+
+    .about{
+        height: 330px;
+    }
+    .right img{
+        height: 220px;
+        margin-top: 50px;
+    }
+
+    .left p{
+        font-size: 18px;
+    }
+    .climate{
+        height: 1250px;
+    }
+.container{
+    height: 1200px;
+}
+
+
+} 
+
+@media screen  and (min-width:1025px) and (max-width:1099px) {
+    .right img{
+        height: 280px;
+        margin-top: 20px;
+    }
+
+    .left p{
+        font-size: 20px;
+    }
+    .climate
+    .three{
+        height: 1500px;
+    }
+
+}
+@media screen and (min-width:321px)and (max-width:375px){
+   
+    .text{
+        line-height: 20px;
+        line-break: none;
+        h3{
+            font-size:40px
+
+        }
+        p{
+            font-size:15px
+        }
+    }
+    nav{
+        display:none;
+    }
+    .hamburger{
+        display:flex
+    }
+    .about{
+        height: 800px;
+        h3{
+            font-size: 30px;
+        }
+        .left{
+            text-align:center;
+            h4{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+       .big-box{
+          gap:20px;
+        img{
+            width: 260px;
+        }
+    }
+    .note{
+      
+        text-align: center;
+      
+    }
+     .right{ 
+      padding-top: 40px;
+     img{
+        /* height: 100px; */
+        width: 300px;
+       
+        
+    }
+}
+.big-box{
+          gap:20px;
+        img{
+            width: 300px;
+        }
+    }
+    .text{
+       
+        h4{
+            font-size:25px;
+        }
+    }
+    .division{
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius
+        }
+    }
+    .note{
+        h3{
+            font-size: 15px;
+        }
+ 
+        p{
+            font-size:14px;
+            text-align: center;
+            width: 300px;
+        }
+    }
+    .three{
+        height: 1500px;
+        h3{
+            font-size: 18px;
+        }
+    }
+    .effects{
+        
+        h3{
+            font-size: 19px;
+        }
+        p{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .both{
+        img{
+        width:300px;    
+        }
+    }  
+.prev{ 
+    height: 1900px;
+}
+.flex-box{
+p{
+    font-size: 14px;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+
+}
+
+.form{
+    width:350px;
+    align-self:center;
+}
+.address{
+  align-self:center;   
+}
+.climate{
+    margin-top: 0px;
+    height: 1590px;
+    h3{
+        /* margin-bottom: 200px; */
+    }
+}
+footer{
+    height: 300px;
+}
+.bigger{
+   display:flex;
+   flex-direction: column;
+   flex-wrap:wrap;
+   justify-content: center;
+   text-align: center;
+   gap:20px
+ 
+}
+.soc{
+  /* flex-direction: column;  */
+      justify-content: center;   
+}
+.send{
+   
+    flex-direction: column; 
+      justify-content: center;  
+}
+.two{
+   justify-content: center;     
+}
+.send{
+   
+    flex-direction: column; 
+      justify-content: center;  
+}
+}
+@media screen and (max-width:320px){
+   .text{
+        line-height: 20px;
+        line-break: none;
+        h3{
+            font-size:40px
+
+        }
+        p{
+            font-size:15px
+        }
+    }
+    nav{
+        display:none;
+    }
+    .hamburger{
+        display:flex
+    }
+    
+    .about{
+        height: 800px;
+        h3{
+            font-size: 30px;
+        }
+        .left{
+            text-align:center;
+            h4{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+           .big-box{
+          gap:20px;
+        img{
+            width: 300px;
+        }
+    }
+    .text{
+       
+        h4{
+            font-size:25px;
+        }
+    }
+    .division{
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius
+        }
+    }
+    .note{
+        h3{
+            font-size: 15px;
+        }
+ 
+        p{
+            font-size:14px;
+            text-align: center;
+            width: 250px;
+        }
+    }
+    .three{
+        height: 1500px;
+        h3{
+            font-size: 18px;
+        }
+    }
+    .effects{
+        
+        h3{
+            font-size: 19px;
+        }
+        p{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .both{
+        img{
+        width:250px;    
+        }
+    }
+    .intro-message{
+        h4{
+            font-size:20px;
+        }
+        p{
+            font:12px;
+        }
+    }
+    .sub{
+        h4{
+            font-size: 20px;
+        }
+    }
+    .note{
+      
+        text-align: center;
+      
+    }
+     .right{ 
+      padding-top: 40px;
+     img{
+        /* height: 100px; */
+        width: 300px;
+       
+        
+    }
+}
+.flex-box{
+p{
+    font-size: 14px;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+}
+.prev{ 
+    height: 1900px;
+}
+.climate{
+    margin-top: 0px;
+    height: 1590px;
+    h3{
+        /* margin-bottom: 200px; */
+    }
+}
+.form{
+    width:300px;
+    align-self:center;
+}
+.address{
+  align-self:center;   
+}
+
+footer{
+    height: 300px;
+}
+.bigger{
+   display:flex;
+   flex-direction: column;
+   flex-wrap:wrap;
+   justify-content: center;
+   text-align: center;
+   gap:20px
+ 
+}
+.soc{
+  /* flex-direction: column;  */
+      justify-content: center;   
+}
+.send{
+   
+    flex-direction: column; 
+      justify-content: center;  
+}
+.two{
+   justify-content: center;     
+}
+}
+@media screen and (max-width:426px) and (min-width:376px){
+     .text{
+        line-height: 20px;
+        line-break: none;
+        h3{
+            font-size:40px
+
+        }
+        p{
+            font-size:15px
+        }
+    }
+    nav{
+        display:none;
+    }
+    .hamburger{
+        display:flex
+    }
+    .about{
+        height: 800px;
+        h3{
+            font-size: 30px;
+        }
+        .left{
+            text-align:center;
+            h4{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .big-box{
+          gap:20px;
+        img{
+            width: 400px;
+        }
+    }
+    .note{
+      
+        text-align: center;
+      
+    }
+     .right{ 
+      padding-top: 40px;
+     img{
+        /* height: 100px; */
+        width: 300px;
+       
+        
+    }
+}
+.flex-box img{
+    width: 400px;
+    height: 00px;
+}
+
+.prev{ 
+    height: 1900px;
+}
+.climate{
+    margin-top: 0px;
+    height: 1590px;
+    h3{
+        /* margin-bottom: 200px; */
+    }
+}
+.big-box{
+          gap:20px;
+        img{
+            width: 300px;
+        }
+    }
+    .text{
+       
+        h4{
+            font-size:25px;
+        }
+    }
+    .division{
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius
+        }
+    }
+    .note{
+        h3{
+            font-size: 15px;
+        }
+ 
+        p{
+            font-size:14px;
+            text-align: center;
+            width: 300px;
+        }
+    }
+    .three{
+        height: 1500px;
+        h3{
+            font-size: 18px;
+        }
+    }
+    .effects{
+        
+        h3{
+            font-size: 19px;
+        }
+        p{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .both{
+        img{
+        width:300px;    
+        }
+    }
+.form{
+    width:350px;
+    align-self:center;
+}
+.address{
+  align-self:center;   
+}
+footer{
+    height: 300px;
+}
+.soc{
+  /* flex-direction: column;  */
+      justify-content: center;   
+}
+.send{
+   
+    flex-direction: column; 
+      justify-content: center;  
+}
+.two{
+   justify-content: center;     
+}
+.bigger{
+   display:flex;
+   flex-direction: column;
+   flex-wrap:wrap;
+   justify-content: center;
+   text-align: center;
+   gap:20px
+ 
+}
+.send{
+   
+    flex-direction: column; 
+      justify-content: center;  
+}  
+}

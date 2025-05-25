@@ -1,0 +1,411 @@
+:root {
+    --primary-green: #2e7d32;
+    --dark-green: #1b5e20;
+    --light-green: #81c784;
+    --earth-brown: #5d4037;
+    --sky-blue: #4fc3f7;
+    --white: #ffffff;
+    --light-gray: #f5f5f5;
+    --dark-gray: #333333;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.intro{
+    background:linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.753)),url(/imgss/about.avif);
+    background-position: center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   height: 650px;;
+   width: 100%;
+   margin-top: 0;
+   
+}
+#under{
+
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: white;
+    height: 60px;
+    align-items: center;
+     position:fixed;
+    z-index: 1000;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    /* height: 5px; */
+}
+.hamburger{
+    display: none;
+}
+
+.logo a{
+ color:#5d4037; 
+ font-family: sans-serif;
+ font-weight:bold;
+ font-size: 30px;
+}
+.logo span{
+    color: #1b5e20;   
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color:#5d4037;
+    font-family: sans-serif;
+    /* font-weight:bold; */
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color:#1b5e20;
+}
+header button{
+    background-color: #1b5e20;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border:none;
+    
+}
+header button a{
+    color:white;
+}
+
+.text{
+text-align: center;
+padding-top: 190px;
+animation: fadeslidedown 1s ease-in forwards;
+}
+@keyframes fadeslidedown {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.text h3{
+    font-size:70px;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 200;
+    line-height: 70px;
+    /* font-style: normal; */;
+    color: #ffffff
+}
+.text p{
+    color:#ffffff;
+    font-size: 20px;
+    font-family:sans-serif ;
+
+}
+.two-but{
+display:flex;
+flex-wrap: wrap;
+gap:20px;
+justify-content: center;
+margin-top:30px;
+}
+.two-but a{
+    color:white;
+}
+#but1{
+    background-color:#1b5e20;
+    color:#ffffff;
+    width:180px;
+    height:30px;
+    border:none;
+}
+#but2{
+    background-color: transparent;
+    border: 2px solid white;
+    width:180px;
+    height:30px;
+}
+#but2:hover{
+background-color: #1b5e20;
+border:none;
+}
+.about{
+margin-top:60px;
+height:500px;
+}
+.ab h4{
+    text-align: center;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 40px;
+    color:#2e7d32;
+
+}
+.divi{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:40px;
+}
+.left h4{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 40px;
+    color:#2e7d32;  
+}
+.left p{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:#5d4037;
+}
+.left button{
+    background-color:#1b5e20;
+    color:#ffffff;
+    width:100px;
+    height:30px;
+    border:none;  
+    margin-top: 20px; 
+}
+.left button a{
+    color:#ffffff;
+}
+.right img{
+height: 350px;
+border-radius: 30px;
+}
+.climate{
+    margin-top: 150px;
+    height:650px;
+    justify-content: center;
+}
+.climate h3{
+    text-align: center;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 40px;
+    color:#2e7d32;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #81c7842d;
+    height: 650px;
+    margin-top: 70px;
+}
+.items{
+height: 490px;
+width: 350px;
+/* background-color: #1b5e20; */
+border-radius: 20px;
+box-shadow: 0 4px 10px  rgba(128, 128, 128, 0.233); 
+margin-top: 80px;
+background-color: #ffffff;
+
+}
+.items:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+     transform: translateY(-10px);
+}
+.items img{
+   height:200px;
+   width: 100%;
+   object-fit: cover;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+}
+.items h4{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 30px;
+    color:#2e7d32;  
+    padding: 10px;  
+}
+.items p{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 12px;
+    color:#5d4037; 
+    padding:10px;  
+}
+.items button{
+    background-color:#1b5e20;
+    color:#ffffff;
+    width:100px;
+    height:30px;
+    border:none;  
+    margin: 7px;   
+}
+.items button a{
+    color: white;
+}
+.prev{
+    margin-top: 250px;
+    height:500px;
+    justify-content: center;   
+}
+.prev h3{
+    text-align: center;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 40px;
+    color:#2e7d32;
+}
+.mother{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 650px;
+    margin-top: 70px;
+}
+
+
+.daughter{
+    height: 400px;
+    width: 300px;
+    /* background-color: #1b5e20; */
+    border-radius: 20px;
+    box-shadow: 0 4px 10px  rgba(128, 128, 128, 0.233); 
+    margin-top: 80px;
+    background-color: #ffffff; 
+    
+}
+.daughter:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+     transform: translateY(-10px);
+}
+
+.daughter img{
+    height:200px;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;   
+}
+.daughter h4{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:#2e7d32;  
+    padding: 10px;  
+}
+.daughter p{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 13px;
+    color:#5d4037; 
+    padding:6px;     
+}
+.daughter button{
+    background-color:#1b5e20;
+    color:#ffffff;
+    width:100px;
+    height:30px;
+    border:none;  
+    margin: 20px; 
+         
+}
+.daughter button a{
+    color: #ffffff;
+}
+footer{
+    margin-top: 200px;
+    background-color:hsl(123, 46%, 34%);
+    height: 200px;
+}
+.bigger{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+}
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:20px
+}
+.desc h3{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:white;       
+}
+.desc p{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+    color:white;    
+}
+.soc{
+    display: flex;
+}
+.soc img{
+    height: 30px;
+}
+.quick{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.quick h3{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:white;          
+}
+.quick nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 05px;
+    padding-top: 20PX;
+
+}
+.quick nav ul A{
+    COLOR:var(--light-gray)
+}
+.send h3{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:white;       
+}
+.send p{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+    color:white;      
+}
+.two{
+    display: flex;
+    gap:0;
+}
+.plane{
+    background-color:#81c784;
+    width: 60px;
+    height: 34px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.plane img{
+    height:20px;
+    
+}
+.COPY{
+    color:white;
+    text-align: center;
+    font-family: "Itim", cursive;
+    font-style: normal;
+}

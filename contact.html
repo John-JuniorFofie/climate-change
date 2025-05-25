@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Greening Our Future</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="media.css">
+ 
+</head>
+<body>
+     <header>
+        <div class="logo"><a href=""><span>Re</span>Leaf</a></div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/solutions.html">Solutions</a></li>
+                <li><a href="/quiz.html">Quizzes</a></li>
+            </ul>
+        </nav>
+        <button><a href="/contact.html">Contact</a></button>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars fa-rotate-by"style="color: #1b5e20; --fa-rotate-angle: 15e20deg;"></i>
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Have questions about our climate initiatives or want to get involved? Send us a message and we'll respond as soon as possible.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Success Message (Initially Hidden) -->
+        <div class="success-message" id="success-message">
+            <h3>Thank You!</h3>
+            <p>Your message has been sent successfully. We'll get back to you soon.</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Fill out the form or reach out to us directly through these channels:</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Mempeasem, East-Legon</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@greenghanaalliance.org</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(+233) 50-366-5076/p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message" id="name-error">Please enter your name</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="email-error">Please enter a valid email address</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="volunteer">Volunteer Opportunity</option>
+                            <option value="partnership">Partnership Inquiry</option>
+                            <option value="donation">Donation Question</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div class="error-message" id="subject-error">Please select a subject</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <div class="error-message" id="message-error">Please enter your message</div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+  <footer>
+        <div class="bigger">
+            <div class="desc">
+                <a href="/index.html"> <h3>Green Ghana Alliance</h3></a>
+            
+                <p>Promoting nature-based solutions to 
+                    <br>climate change through education, 
+                    <br>community action, and sustainable 
+                    design.</p>
+                    <div class="soc">
+                        <img src="/imgss/instagram.png" alt="">
+                        <img src="/imgss/linkedIn.png" alt="">
+                        <img src="/imgss/facebook.png" alt="">
+                        <img src="/imgss/twitter.png" alt="">
+                    </div>
+            </div>
+            <div class="quick">
+                <nav>
+                    <h3>Quick links</h3>
+                    <ul>
+                        <!-- <li><a href="">Home</a></li> -->
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/solutions.html">Solutions</a></li>
+                        <li><a href="/quiz.html">Quiz</a></li>
+                        <li><a href="/contact.html">contacts</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <div class="send">
+                <h3>Get in touch</h3>
+                <p>
+                    Don’t hesitate to reach us we <br>are on your aid every time 
+                </p>
+                <div class="two">
+                    <textarea name="" id="" placeholder="type your message here"></textarea>
+                    <div class="plane"><img src="/imgss/paper-plane.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="COPY">&COPY;copyright 2025 John Fofie Junior</div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+ 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            const successMessage = document.getElementById('success-message');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Reset error messages
+                document.querySelectorAll('.error-message').forEach(el => {
+                    el.style.display = 'none';
+                });
+                
+                // Validate form
+                let isValid = true;
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value.trim();
+                
+                if (!name) {
+                    document.getElementById('name-error').style.display = 'block';
+                    isValid = false;
+                }
+                
+                if (!email || !isValidEmail(email)) {
+                    document.getElementById('email-error').style.display = 'block';
+                    isValid = false;
+                }
+                
+                if (!subject) {
+                    document.getElementById('subject-error').style.display = 'block';
+                    isValid = false;
+                }
+                
+                if (!message) {
+                    document.getElementById('message-error').style.display = 'block';
+                    isValid = false;
+                }
+                
+                if (isValid) {
+                    // In a real application, you would send the form data to a server here
+                    // For this example, we'll just show the success message
+                    
+                    // Hide form and show success message
+                    contactForm.reset();
+                    successMessage.style.display = 'block';
+                    
+                    // Scroll to success message
+                    successMessage.scrollIntoView({ behavior: 'smooth' });
+                    
+                    // Hide success message after 5 seconds (optional)
+                    setTimeout(() => {
+                        successMessage.style.display = 'none';
+                    }, 5000);
+                }
+            });
+            
+            // Helper function to validate email
+            function isValidEmail(email) {
+                const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return re.test(email);
+            }
+        });
+    </script>
+</body>
+</html>

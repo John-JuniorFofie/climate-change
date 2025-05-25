@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Quiz | Greening Our Future</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Itim&family=Jaini+Purva&family=Jersey+10&family=Noto+Sans+Batak&family=Oswald:wght@331&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Smooch+Sans:wght@100..900&family=Yellowtail&display=swap" rel="stylesheet">   
+
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="media.css">
+   
+</head>
+<body>
+    <header>
+        <div class="logo"><a href=""><span>Re</span>Leaf</a></div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/solutions.html">Solutions</a></li>
+                <li><a href="">Quizzes</a></li>
+            </ul>
+        </nav>
+        <button><a href="/contact.html">contact</a></button>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars fa-rotate-by"style="color: #1b5e20; --fa-rotate-angle: 15e20deg;"></i>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1>Climate Change Quiz</h1>
+                <p>Test your knowledge about climate change and its solutions</p>
+            </div>
+            
+            <div class="quiz-progress">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            
+            <!-- Question 1 -->
+            <div class="question-container" id="question-1">
+                <div class="question-number">Question 1 of 6</div>
+                <div class="question-text">What do trees help remove from the air that causes global warming?</div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q1" value="a">
+                        <span class="checkmark"></span>
+                        Oxygen
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="b">
+                        <span class="checkmark"></span>
+                        Smoke
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="c">
+                        <span class="checkmark"></span>
+                        Carbon Dioxide
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="d">
+                        <span class="checkmark"></span>
+                        Water Vapor
+                    </label>
+                </div>
+                <div class="feedback" id="feedback-1">
+                    <p><i class="fas fa-check-circle"></i> <span id="feedback-text-1"></span></p>
+                </div>
+                <div class="quiz-navigation">
+                    <button class="btn" id="next-1">Next Question</button>
+                </div>
+            </div>
+            
+            <!-- Question 2 -->
+            <div class="question-container" id="question-2">
+                <div class="question-number">Question 2 of 6</div>
+                <div class="question-text">What is deforestation?</div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q2" value="a">
+                        <span class="checkmark"></span>
+                        Planting new trees
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="b">
+                        <span class="checkmark"></span>
+                        Cutting down lots of trees
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="c">
+                        <span class="checkmark"></span>
+                        Building houses
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="d">
+                        <span class="checkmark"></span>
+                        Cleaning forests
+                    </label>
+                </div>
+                <div class="feedback" id="feedback-2">
+                    <p><i class="fas fa-check-circle"></i> <span id="feedback-text-2"></span></p>
+                </div>
+                <div class="quiz-navigation">
+                    <button class="btn btn-outline" id="prev-2">Previous</button>
+                    <button class="btn" id="next-2">Next Question</button>
+                </div>
+            </div>
+            
+            <!-- Question 3 -->
+            <div class="question-container" id="question-3">
+                <div class="question-number">Question 3 of 6</div>
+                <div class="question-text">Which of these is a fossil fuel?</div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q3" value="a">
+                        <span class="checkmark"></span>
+                        Solar power
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="b">
+                        <span class="checkmark"></span>
+                        Wind energy
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="c">
+                        <span class="checkmark"></span>
+                        Coal
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="d">
+                        <span class="checkmark"></span>
+                        Rainwater
+                    </label>
+                </div>
+                <div class="feedback" id="feedback-3">
+                    <p><i class="fas fa-check-circle"></i> <span id="feedback-text-3"></span></p>
+                </div>
+                <div class="quiz-navigation">
+                    <button class="btn btn-outline" id="prev-3">Previous</button>
+                    <button class="btn" id="next-3">Next Question</button>
+                </div>
+            </div>
+            
+            <!-- Question 4 -->
+            <div class="question-container" id="question-4">
+                <div class="question-number">Question 4 of 6</div>
+                <div class="question-text">How does burning fossil fuels affect the Earth?</div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q4" value="a">
+                        <span class="checkmark"></span>
+                        It cools the planet
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="b">
+                        <span class="checkmark"></span>
+                        It cleans the air
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="c">
+                        <span class="checkmark"></span>
+                        It adds gases that trap heat
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="d">
+                        <span class="checkmark"></span>
+                        It stops climate change
+                    </label>
+                </div>
+                <div class="feedback" id="feedback-4">
+                    <p><i class="fas fa-check-circle"></i> <span id="feedback-text-4"></span></p>
+                </div>
+                <div class="quiz-navigation">
+                    <button class="btn btn-outline" id="prev-4">Previous</button>
+                    <button class="btn" id="next-4">Next Question</button>
+                </div>
+            </div>
+            
+            <!-- Question 5 -->
+            <div class="question-container" id="question-5">
+                <div class="question-number">Question 5 of 6</div>
+                <div class="question-text">What types of places release dirty gases through waste and smoke?</div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q5" value="a">
+                        <span class="checkmark"></span>
+                        Schools
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q5" value="b">
+                        <span class="checkmark"></span>
+                        Parks
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q5" value="c">
+                        <span class="checkmark"></span>
+                        Factories and landfills
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q5" value="d">
+                        <span class="checkmark"></span>
+                        Libraries
+                    </label>
+                </div>
+                <div class="feedback" id="feedback-5">
+                    <p><i class="fas fa-check-circle"></i> <span id="feedback-text-5"></span></p>
+                </div>
+                <div class="quiz-navigation">
+                    <button class="btn btn-outline" id="prev-5">Previous</button>
+                    <button class="btn" id="next-5">Next Question</button>
+                </div>
+            </div>
+            
+            <!-- Question 6 -->
+            <div class="question-container" id="question-6">
+                <div class="question-number">Question 6 of 6</div>
+                <div class="question-text">Why is climate change a problem?</div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q6" value="a">
+                        <span class="checkmark"></span>
+                        It helps plants grow faster
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q6" value="b">
+                        <span class="checkmark"></span>
+                        It causes extreme weather and rising sea levels
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q6" value="c">
+                        <span class="checkmark"></span>
+                        It makes the Earth stronger
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q6" value="d">
+                        <span class="checkmark"></span>
+                        It keeps the air clean
+                    </label>
+                </div>
+                <div class="feedback" id="feedback-6">
+                    <p><i class="fas fa-check-circle"></i> <span id="feedback-text-6"></span></p>
+                </div>
+                <div class="quiz-navigation">
+                    <button class="btn btn-outline" id="prev-6">Previous</button>
+                    <button class="btn" id="submit-quiz">See Results</button>
+                </div>
+            </div>
+            
+            <!-- Results Section -->
+            <div class="results-container" id="results-container">
+                <h2>Your Quiz Results</h2>
+                <div class="score-circle">
+                    <div class="score" id="score">0%</div>
+                </div>
+                <p class="result-message" id="result-message"></p>
+                
+                <div class="answers-review">
+                    <h3>Review Your Answers:</h3>
+                    <div class="answer-item" id="answer-1">
+                        <p class="question-review">1. What do trees help remove from the air that causes global warming?</p>
+                        <p class="user-answer">Your answer: <span id="user-answer-1"></span></p>
+                        <p class="correct-answer">Correct answer: Carbon Dioxide</p>
+                    </div>
+                    
+                    <div class="answer-item" id="answer-2">
+                        <p class="question-review">2. What is deforestation?</p>
+                        <p class="user-answer">Your answer: <span id="user-answer-2"></span></p>
+                        <p class="correct-answer">Correct answer: Cutting down lots of trees</p>
+                    </div>
+                    
+                    <div class="answer-item" id="answer-3">
+                        <p class="question-review">3. Which of these is a fossil fuel?</p>
+                        <p class="user-answer">Your answer: <span id="user-answer-3"></span></p>
+                        <p class="correct-answer">Correct answer: Coal</p>
+                    </div>
+                    
+                    <div class="answer-item" id="answer-4">
+                        <p class="question-review">4. How does burning fossil fuels affect the Earth?</p>
+                        <p class="user-answer">Your answer: <span id="user-answer-4"></span></p>
+                        <p class="correct-answer">Correct answer: It adds gases that trap heat</p>
+                    </div>
+                    
+                    <div class="answer-item" id="answer-5">
+                        <p class="question-review">5. What types of places release dirty gases through waste and smoke?</p>
+                        <p class="user-answer">Your answer: <span id="user-answer-5"></span></p>
+                        <p class="correct-answer">Correct answer: Factories and landfills</p>
+                    </div>
+                    
+                    <div class="answer-item" id="answer-6">
+                        <p class="question-review">6. Why is climate change a problem?</p>
+                        <p class="user-answer">Your answer: <span id="user-answer-6"></span></p>
+                        <p class="correct-answer">Correct answer: It causes extreme weather and rising sea levels</p>
+                    </div>
+                </div>
+                
+                <button class="btn" id="retake-btn">Retake Quiz</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="bigger">
+            <div class="desc">
+<a href="/index.html"> <h3>Green Ghana Alliance</h3></a>
+                <p>Promoting nature-based solutions to 
+                    <br>climate change through education, 
+                    <br>community action, and sustainable 
+                    design.</p>
+                    <div class="soc">
+                        <img src="/imgss/instagram.png" alt="">
+                        <img src="/imgss/linkedIn.png" alt="">
+                        <img src="/imgss/facebook.png" alt="">
+                        <img src="/imgss/twitter.png" alt="">
+                    </div>
+            </div>
+            <div class="quick">
+                <nav>
+                    <h3>Quick links</h3>
+                    <ul>
+                        <!-- <li><a href="">Home</a></li> -->
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/solutions.html">Solutions</a></li>
+                        <li><a href="/quiz.html">Quiz</a></li>
+                        <li><a href="/contact.html">contacts</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <div class="send">
+                <h3>Get in touch</h3>
+                <p>
+                    Don’t hesitate to reach us we <br>are on your aid every time 
+                </p>
+                <div class="two">
+                    <textarea name="" id="" placeholder="type your message here"></textarea>
+                    <div class="plane"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="COPY">&COPY;copyright 2025 John Fofie Junior</div>
+    </footer>
+    <script>
+        // Quiz Data with Answers and Explanations
+        const quizData = [
+            {
+                question: "What do trees help remove from the air that causes global warming?",
+                options: ["Oxygen", "Smoke", "Carbon Dioxide", "Water Vapor"],
+                correct: 2, // Carbon Dioxide
+                feedback: "Correct! Trees absorb carbon dioxide (CO₂) from the atmosphere during photosynthesis, which helps reduce greenhouse gases that cause global warming."
+            },
+            {
+                question: "What is deforestation?",
+                options: ["Planting new trees", "Cutting down lots of trees", "Building houses", "Cleaning forests"],
+                correct: 1, // Cutting down lots of trees
+                feedback: "That's right! Deforestation means the large-scale removal of trees, which is a major contributor to climate change because trees store carbon."
+            },
+            {
+                question: "Which of these is a fossil fuel?",
+                options: ["Solar power", "Wind energy", "Coal", "Rainwater"],
+                correct: 2, // Coal
+                feedback: "Correct! Coal is a fossil fuel formed from ancient plants. When burned, it releases carbon dioxide that was stored underground for millions of years."
+            },
+            {
+                question: "How does burning fossil fuels affect the Earth?",
+                options: ["It cools the planet", "It cleans the air", "It adds gases that trap heat", "It stops climate change"],
+                correct: 2, // It adds gases that trap heat
+                feedback: "Exactly! Burning fossil fuels releases greenhouse gases like CO₂ that trap heat in the atmosphere, causing global temperatures to rise."
+            },
+            {
+                question: "What types of places release dirty gases through waste and smoke?",
+                options: ["Schools", "Parks", "Factories and landfills", "Libraries"],
+                correct: 2, // Factories and landfills
+                feedback: "Correct! Factories burning fossil fuels and landfills releasing methane are major sources of greenhouse gas emissions."
+            },
+            {
+                question: "Why is climate change a problem?",
+                options: [
+                    "It helps plants grow faster",
+                    "It causes extreme weather and rising sea levels",
+                    "It makes the Earth stronger",
+                    "It keeps the air clean"
+                ],
+                correct: 1, // It causes extreme weather and rising sea levels
+                feedback: "That's right! Climate change leads to more intense storms, droughts, heatwaves, and melting ice caps that raise sea levels."
+            }
+        ];
+
+        // DOM Elements
+        const progressBar = document.getElementById('progress-bar');
+        const questionContainers = document.querySelectorAll('.question-container');
+        const resultsContainer = document.getElementById('results-container');
+        const scoreElement = document.getElementById('score');
+        const resultMessage = document.getElementById('result-message');
+        const retakeBtn = document.getElementById('retake-btn');
+
+        // Quiz State
+        let currentQuestion = 0;
+        let userAnswers = Array(quizData.length).fill(null);
+        let score = 0;
+
+        // Initialize Quiz
+        function initQuiz() {
+            // Show first question
+            questionContainers.forEach(container => {
+                container.style.display = 'none';
+            });
+            questionContainers[0].style.display = 'block';
+            
+            // Reset state
+            currentQuestion = 0;
+            userAnswers = Array(quizData.length).fill(null);
+            score = 0;
+            updateProgressBar();
+            
+            // Hide results
+            resultsContainer.style.display = 'none';
+        }
+
+        // Start quiz when page loads
+        initQuiz();
+
+        // Update Progress Bar
+        function updateProgressBar() {
+            const progress = ((currentQuestion) / quizData.length) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+
+        // Next Question Buttons
+        document.getElementById('next-1').addEventListener('click', () => checkAnswer(0));
+        document.getElementById('next-2').addEventListener('click', () => checkAnswer(1));
+        document.getElementById('next-3').addEventListener('click', () => checkAnswer(2));
+        document.getElementById('next-4').addEventListener('click', () => checkAnswer(3));
+        document.getElementById('next-5').addEventListener('click', () => checkAnswer(4));
+        document.getElementById('submit-quiz').addEventListener('click', () => checkAnswer(5));
+
+        // Previous Question Buttons
+        document.getElementById('prev-2').addEventListener('click', () => navigateToQuestion(0));
+        document.getElementById('prev-3').addEventListener('click', () => navigateToQuestion(1));
+        document.getElementById('prev-4').addEventListener('click', () => navigateToQuestion(2));
+        document.getElementById('prev-5').addEventListener('click', () => navigateToQuestion(3));
+        document.getElementById('prev-6').addEventListener('click', () => navigateToQuestion(4));
+
+        // Navigate to Question
+        function navigateToQuestion(index) {
+            currentQuestion = index;
+            showQuestion(currentQuestion);
+            updateProgressBar();
+        }
+
+        // Show Question
+        function showQuestion(index) {
+            questionContainers.forEach(container => {
+                container.style.display = 'none';
+            });
+            questionContainers[index].style.display = 'block';
+        }
+
+        // Check Answer
+        function checkAnswer(questionIndex) {
+            const selectedOption = document.querySelector(`input[name="q${questionIndex + 1}"]:checked`);
+            
+            if (!selectedOption) {
+                alert('Please select an answer before proceeding.');
+                return;
+            }
+            
+            const answerIndex = selectedOption.value.charCodeAt(0) - 97; // Convert a,b,c,d to 0,1,2,3
+            userAnswers[questionIndex] = answerIndex;
+            
+            // Show feedback
+            const feedbackDiv = document.getElementById(`feedback-${questionIndex + 1}`);
+            const feedbackText = document.getElementById(`feedback-text-${questionIndex + 1}`);
+            
+            if (answerIndex === quizData[questionIndex].correct) {
+                feedbackDiv.className = 'feedback correct';
+                feedbackText.textContent = quizData[questionIndex].feedback;
+            } else {
+                feedbackDiv.className = 'feedback incorrect';
+                feedbackText.textContent = quizData[questionIndex].feedback;
+            }
+            
+            feedbackDiv.style.display = 'block';
+            
+            // Move to next question or show results
+            if (questionIndex < quizData.length - 1) {
+                currentQuestion++;
+                updateProgressBar();
+                setTimeout(() => {
+                    showQuestion(currentQuestion);
+                    feedbackDiv.style.display = 'none';
+                }, 1500);
+            } else {
+                calculateResults();
+            }
+        }
+
+        // Calculate Results
+        function calculateResults() {
+            score = 0;
+            for (let i = 0; i < quizData.length; i++) {
+                if (userAnswers[i] === quizData[i].correct) {
+                    score++;
+                }
+                
+                // Update answer review
+                const userAnswerElement = document.getElementById(`user-answer-${i + 1}`);
+                if (userAnswers[i] !== null) {
+                    userAnswerElement.textContent = quizData[i].options[userAnswers[i]];
+                    if (userAnswers[i] === quizData[i].correct) {
+                        userAnswerElement.classList.add('correct');
+                        userAnswerElement.classList.remove('incorrect');
+                    } else {
+                        userAnswerElement.classList.add('incorrect');
+                        userAnswerElement.classList.remove('correct');
+                    }
+                } else {
+                    userAnswerElement.textContent = "No answer selected";
+                    userAnswerElement.classList.add('incorrect');
+                }
+            }
+            
+            const percentage = Math.round((score / quizData.length) * 100);
+            scoreElement.textContent = `${percentage}%`;
+            
+            // Custom result message
+            if (percentage >= 80) {
+                resultMessage.textContent = "Excellent! You have a strong understanding of climate change causes and effects.";
+            } else if (percentage >= 50) {
+                resultMessage.textContent = "Good job! You know some basics about climate change - keep learning!";
+            } else {
+                resultMessage.textContent = "Keep studying! Understanding climate change is the first step to helping solve it.";
+            }
+            
+            // Show results
+            questionContainers.forEach(container => {
+                container.style.display = 'none';
+            });
+            resultsContainer.style.display = 'block';
+        }
+
+        // Retake Quiz
+        retakeBtn.addEventListener('click', initQuiz);
+    </script>
+</body>
+</html>

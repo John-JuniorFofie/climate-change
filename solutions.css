@@ -1,0 +1,317 @@
+:root {
+    --primary-green: #2e7d32;
+    --dark-green: #1b5e20;
+    --light-green: #81c784;
+    --earth-brown: #5d4037;
+    --sky-blue: #4fc3f7;
+    --white: #ffffff;
+    --light-gray: #f5f5f5;
+    --dark-gray: #333333;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.intro{
+    background:linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.753)),url(/imgss/solutions\ hero.jpg);
+    background-position: center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   height: 650px;;
+   width: 100%;
+   
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: white;
+    height: 60px;
+    align-items: center;
+}
+.hamburger{
+    display: none;
+}
+
+.logo a{
+ color:#5d4037; 
+ font-family: sans-serif;
+ font-weight:bold;
+ font-size: 30px;
+}
+.logo span{
+    color: #1b5e20;   
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color:#5d4037;
+    font-family: sans-serif;
+    /* font-weight:bold; */
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color:#1b5e20;
+}
+header button{
+    background-color: #1b5e20;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border:none;
+    
+}
+header button a{
+    color:white;
+}
+
+.text{
+    text-align: center;
+    margin-top: 200px;
+    animation: fadeslidedown 1s ease-in forwards;
+    }
+    @keyframes fadeslidedown {
+        0% {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+    }
+    
+    .text h3{
+        font-size:90px;
+        font-family: "Jaini Purva", system-ui;
+        font-weight: 100;
+        line-height: 70px;
+        /* font-style: normal; */;
+        color: #ffffff
+    }
+    .intro-message{
+        margin-top: 40px;
+        
+        h4{
+            text-align: center;
+            font-family: "Itim", cursive;
+            font-style: normal;
+            font-size: 40px;
+            color:#1b5e20;
+        }
+        p{
+         text-align: center; 
+         font-family: "Itim", cursive;  
+        }
+    }
+    .nature-solutions{
+        margin-top: 80px;
+        background-color:#81c7849f;
+        h4{
+            text-align: center;
+            font-family: "Itim", cursive;  
+            color:#1b5e20;
+            font-size: 30px;
+            padding: 150px 0 50px 0;
+        }
+       
+    }
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 50px;
+    /* margin-top: 50px; */
+    img{
+        height: 350px;
+        border-radius: 20px;
+    }
+  
+}
+
+.note{
+    width: 650px;
+}
+.note p{
+  font-family: "Itim", cursive;
+    font-size:20px;
+}
+.after-button{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+    button{background-color: #1b5e20;
+       
+        border: none;
+        width: 150px;
+        height: 35px;
+      a{
+        color:white;
+      }  
+    }
+}
+.action{
+    margin-top: 90px;
+  
+    h4{
+        text-align: center;
+        font-family: "Itim", cursive;  
+        color:#1b5e20;
+        font-size: 30px;
+        padding: 80px;
+       
+    }
+}
+.action-bigbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.actionbox{
+ width: 400px;
+ height: 300px;
+ background-color: rgba(128, 128, 128, 0.158); 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+  
+img{
+    height: 90px;
+    width: 90px;
+}
+ button{
+    background-color: #2e7d32;   
+    border: none;
+    width: 150px;
+    height: 35px;
+    
+  a{
+    color:white;
+  }  
+
+  
+}
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+     transform: translateY(-10px);
+     background-color: #1b5e20;
+  }
+
+}
+.actionbox:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+     transform: translateY(-10px);
+}
+.actionbox h3{
+    font-family: "Itim", cursive;  
+    color:#1b5e20;
+    font-size: 30px;
+}
+.actionbox p{
+        text-align: center;
+        font-family: "itim" cursive;
+        font-style: normal;
+        font-size: 20px;
+    
+}
+footer{
+    margin-top: 200px;
+    background-color:#2e7d32;
+    height: 200px;
+}
+.bigger{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+}
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:20px
+}
+.desc h3{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:white;       
+}
+.desc p{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+    color:white;    
+}
+.soc{
+    display: flex;
+}
+.soc img{
+    height: 30px;
+}
+.quick{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.quick h3{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:white;          
+}
+.quick nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 05px;
+    padding-top: 20PX;
+
+}
+.quick nav ul A{
+    COLOR:var(--light-gray)
+}
+.send h3{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 20px;
+    color:white;       
+}
+.send p{
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+    color:white;      
+}
+.two{
+    display: flex;
+    gap:0;
+}
+ .plane{
+    background-color:#81c784;
+    width: 60px;
+    height: 34px;
+     justify-content:center;
+    align-items:center;
+}
+.plane img{
+    height:20px;
+    
+}
+.COPY{
+    color:white;
+    text-align: center;
+    font-family: "Itim", cursive;
+    font-style: normal;
+}
