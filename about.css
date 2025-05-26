@@ -31,6 +31,12 @@ header{
     background: white;
     height: 60px;
     align-items: center;
+     position:fixed;
+    z-index: 1000;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    box-shadow: 0 4px 6px gray;
 }
 
 .logo a{
@@ -68,7 +74,7 @@ header button a{
 }
 .text{
     text-align: center;
-margin-top: 190px;
+padding-top: 250px;
 animation: fadeslidedown 1s ease-in forwards;
 
 }

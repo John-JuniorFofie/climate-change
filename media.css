@@ -43,13 +43,13 @@ height: 1200px;
     }
 }
 nav{
-    display:none;
+    display:flex;
 }
 button{
-    display: none;
+    ;
 }
 .hamburger{
-    display: flex;
+    display:none;
 }
 footer{
     justify-content: center;
@@ -113,10 +113,10 @@ height: 100px;
         }
     }
     nav{
-        display:none;
+        display:flex;
     }
     .hamburger{
-        display:flex
+        display:none;
     }
     .about{
         height: 800px;
@@ -275,10 +275,10 @@ footer{
         }
     }
     nav{
-        display:none;
+        display:flex;
     }
     .hamburger{
-        display:flex
+        display:none;
     }
     
     .about{
@@ -439,10 +439,10 @@ footer{
         }
     }
     nav{
-        display:none;
+        display:flex;
     }
     .hamburger{
-        display:flex
+        display:none;
     }
     .about{
         height: 800px;
@@ -581,4 +581,17 @@ footer{
     flex-direction: column; 
       justify-content: center;  
 }  
+}
+@media screen and (max-width:760px) {
+    header{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+}
+@media screen {
+    
 }

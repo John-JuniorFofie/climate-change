@@ -25,19 +25,46 @@
    margin-top: 0;
    
 }
+.text{
+text-align: center;
+margin-top: 200px;
+animation: fadeslidedown 1s ease-in forwards;
+}
+@keyframes fadeslidedown {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.text{
+    i{
+        margin-top:100px
+    }
+}
+  .text h4{
+    font-size:50px;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 200;
+    line-height: 70px;
+    /* font-style: normal; */;
+    color: #ffffff
+}
 header{
-      display:flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background: white;
     height: 60px;
     align-items: center;
-     position:fixed;
+     /* position:fixed; */
     z-index: 1000;
     width: 100%;
     top:0;
     bottom: 0;
-    box-shadow: 0 4px 6px gray;
     /* height: 5px; */
 }
 .hamburger{
@@ -78,165 +105,34 @@ header button a{
     color:white;
 }
 html{
-    scroll-behavior: smooth;
-}
-.text{
-text-align: center;
-padding-top: 250px;
-animation: fadeslidedown 1s ease-in forwards;
-}
-@keyframes fadeslidedown {
-    0% {
-      opacity: 0;
-      transform: translateY(40px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-.text{
-    i{
-        margin-top:100px
-    }
-}
-  .text h4{
-    font-size:100px;
-    font-family: "Jaini Purva", system-ui;
-    font-weight: 200;
-    line-height: 70px;
-    /* font-style: normal; */;
-    color: #ffffff
-}
-.understand{
-    margin-top:90px;
-}
-.division{
-      justify-content: center;
-      display: flex;
-    justify-content: center;
-    gap: 90px;
-     flex-wrap: wrap;
-  
-}
-.note{
-    
-      h3{
-    /* text-align: center; */
-    padding-bottom: 30px  ;
-    font-family: 'Itim', cursive;
-    color:#2e7d32;
-    font-size: 30px;
-   }
-}
-.note p{
-    font-family: 'Itim', cursive;
-    width: 500px;
-    font-size:21px;
-}
-
-.division img{
-    height: 400px;
-    
-}
-.three{
-    margin-top: 250px;
-    height:600px;
-    justify-content: center;   
-}
-.three h3{
-    text-align: center;
-    font-family: "Itim", cursive;
-    font-style: normal;
-    font-size: 40px;
-    color:#2e7d32;
+scroll-behavior: smooth;
 }
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: 550px;
-    margin-top: 30px;
-    background: linear-gradient(rgba(95, 143, 95, 0.226),rgba(95, 143, 95, 0.24),rgba(95, 143, 95, 0.13));
-
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:40px;
+    margin-top:10px;
 }
-
 .items{
-    height: 400px;
-    width: 300px;
+     height: 300px;
+    width:300px; 
+    object-fit: cover;
     /* background-color: #1b5e20; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
     box-shadow: 0 4px 10px  rgba(128, 128, 128, 0.233); 
     margin-top: 80px;
-    background-color: #ffffff; 
-    
-}
-.items:hover{
-    transform: scale(1.1);
-    transition-duration: 1s;
-     transform: translateY(-10px);
-}
-
-.items img{
-    height:200px;
+    background-color: #ffffff;    
+iframe{
     width: 100%;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;   
 }
-.items h4{
-    font-family: "Itim", cursive;
-    font-style: normal;
-    font-size: 20px;
-    color:#2e7d32;  
-    padding: 10px;  
 }
-.items p{
-    font-family: "Itim", cursive;
-    font-style: normal;
-    font-size: 13px;
-    color:#5d4037; 
-    padding:4px;     
-}
-.items button{
-    background-color:#1b5e20;
-    color:#ffffff;
-    width:100px;
-    height:30px;
-    border:none;  
-    margin: 20px; 
-         
-}
-.items button a{
-    color: #ffffff;
-}
-.effects{
-    margin-top: 80px;
-    h3{
-  font-family: "Itim", cursive;
-    font-style: normal;
-    font-size: 30px;
-    color:#2e7d32;  
-    padding: 10px;   
-    text-align: center; 
-    padding: 40px;
-}
-
-}
-.both{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 90px;
-
-}
-.both p{
-width: 600px;
-font-size: 24px;
-font-family:'Itim',cursive;
-} 
-.both img{
-    height: 350px;
+h1{
+    font-family: 'Itim', cursive;
+    color:#2e7d32;
+    font-size: 25px;
+    text-align: center;
+    margin-top:50px;
 }
 footer{
     margin-top: 200px;

@@ -40,6 +40,7 @@ header{
     width: 100%;
     top:0;
     bottom: 0;
+       box-shadow: 0 4px 6px gray;
     /* height: 5px; */
 }
 .hamburger{
@@ -233,9 +234,9 @@ background-color: #ffffff;
 .items p{
     font-family: "Itim", cursive;
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     color:#5d4037; 
-    padding:10px;  
+    padding:7px;  
 }
 .items button{
     background-color:#1b5e20;
@@ -243,7 +244,8 @@ background-color: #ffffff;
     width:100px;
     height:30px;
     border:none;  
-    margin: 7px;   
+    margin-left: 67px; 
+    text-align: center;  
 }
 .items button a{
     color: white;
@@ -302,7 +304,7 @@ background-color: #ffffff;
 .daughter p{
     font-family: "Itim", cursive;
     font-style: normal;
-    font-size: 13px;
+    font-size: 16px;
     color:#5d4037; 
     padding:6px;     
 }
