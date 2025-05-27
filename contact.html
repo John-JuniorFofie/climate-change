@@ -79,7 +79,9 @@
             </div>
 
             <div class="contact-form-container">
-                <form id="contact-form">
+                <form  action="https://api.web3forms.com/submit" method="post">
+                     <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <input type="hidden" name="apikey" value="7e42b934-0496-415b-8e26-1b67b33092ff" >
                     <div class="form-group">
                         <label for="name">Full Name</label>
                         <input type="text" id="name" name="name" required>
