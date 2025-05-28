@@ -246,7 +246,7 @@ footer{
 .main-container{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content:space-around; */
+    justify-content:center;
     gap: 30px;
      margin-top: 50px;
    
