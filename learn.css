@@ -154,7 +154,7 @@ animation: fadeslidedown 1s ease-in forwards;
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:center;
     height: 550px;
     margin-top: 30px;
     background: linear-gradient(rgba(95, 143, 95, 0.226),rgba(95, 143, 95, 0.24),rgba(95, 143, 95, 0.13));
@@ -248,7 +248,7 @@ footer{
     flex-wrap: wrap;
     justify-content:center;
     gap: 30px;
-     margin-top: 50px;
+    margin-top: 50px;
    
      
 } 
