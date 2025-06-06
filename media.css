@@ -1,5 +1,10 @@
+:root{
+    --transition--: all 0.3s ease;
+     --nav-bg:white;
+}
 @media screen and (min-width: 768px) and (max-width: 899px){
-.about{
+
+    .about{
     align-items:center;
     height:300px;
 
@@ -582,16 +587,55 @@ footer{
       justify-content: center;  
 }  
 }
-@media screen and (max-width:760px) {
-    header{
-        height: 100px;
-        display: flex;
+@media screen and (max-width:768px) {
+ .hamburger {
+        display:flex;
         flex-direction: column;
     }
-    nav ul li a{
-        font-size: 15px;
+    header{
+        button{
+            display: none;
+        }
     }
+    nav {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        background-color: var(--nav-bg);
+        transition: var(--transition--);
+    }
+
+    nav.active {
+        left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+   
 }
-@media screen {
-    
 }
